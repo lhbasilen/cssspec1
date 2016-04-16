@@ -9,14 +9,14 @@ Working-Storage Section.
 Procedure Division.
 Display-Routine.    
   Display erase.
-  Display "NUM1 = " line 3 col 5.
+  Display "NUM1 = " line 6 col 9.
   Display num1.
-  Display "NUM2 = " line 4 col 5.
+  Display "NUM2 = " line 9 col 6.
   Display num2.
   Display "NUM1 = ".
   Display num1.
   Display "NUM2 = " with no advancing.
   Display num2.
-  Display "NUM2 = " line 10 col 5.
+  Display "NUM2 = " line 8 col 4.
   Display num2.
   Stop Run.
